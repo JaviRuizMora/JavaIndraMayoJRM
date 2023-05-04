@@ -44,16 +44,10 @@ public class Program {
 		try {
 			enLetras = "22dos";
 			numero = Integer.parseInt(enLetras);
-		} catch (NumberFormatException ex) {
-			System.out.println("No se pudo convertir de " + enLetras + " a int");
 		} catch (Exception ex) {
-			System.out.println("Ocurrió un error inesperado");
+			System.out.println("No se pudo convertir de " + enLetras + " a int");
 		}
-		
-		//Convierto un string con un numero decimal en una variable float
-		String medioString = "0.5";
-		float medio2 = Float.parseFloat(medioString);
-		System.out.println(medio2);
+
 	}
 
 }

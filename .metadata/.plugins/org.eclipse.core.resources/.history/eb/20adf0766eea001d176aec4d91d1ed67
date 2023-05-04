@@ -1,0 +1,29 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		System.out.println("Hola Mundo");
+		
+		//Tipos De Datos Primitivos
+		int numero = 20;
+		System.out.println(numero);
+		
+		double medio = 0.5;
+		System.out.println(medio);
+		
+		boolean verdadero = true;
+		System.out.println(verdadero);
+		
+		
+		//Tipos de datos Objetos (hay que pedir memoria con new)
+		String nombre = "Javier"; //Como es tan común se omite new
+		//String nombre = new String("Hola");
+		System.out.println(nombre);
+		
+		@SuppressWarnings("removal")
+		Integer num = new Integer(2);
+		System.out.println(num);
+
+	}
+
+}
